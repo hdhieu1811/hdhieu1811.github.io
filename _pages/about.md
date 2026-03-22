@@ -2,16 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle:
+# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: profile_pic.jpeg
+  image_circular: true # crops the image to make it circular
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -19,16 +16,20 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  limit: # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Xin chào mọi người 😝
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Mình là nghiên cứu viên của Phòng Thí nghiệm Công nghệ phần mềm SELab - Trường Đại học Khoa học tự nhiên Tp. Hồ Chí Minh.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Mình học chuyên Toán 1316 PTNK, rồi Khoa học máy tính chương trình APCS ở Trường Ú (HCMUS), rồi lấy bằng Thạc sĩ ở viện John von Neumann trực thuộc trường. Toàn bộ quá trình học, tiếp xúc bạn bè và thầy cô, đã định hình con người mình hiện tại. Mãi biết ơn mọi người 😍
+
+Sau một khoảng thời gian làm việc trong SELab, mình quyết định đổi gió một chút và tham gia thực tập tại một công ty tài chính định lượng. Gặp những con người tài giỏi và tràn đầy tình cảm ở đây, mình học thêm được nhiều điều mới. Pay it forward, mình quyết định viết blog như một cách ghi lại những điều bổ ích để chia sẻ với mọi người, và cũng là hành trình char dev của bản thân 😎
+
+Túm gọn lại, blog này chủ yếu để mình chia sẻ những điều mình thấy thú vị về cuộc sống thường ngày, kiến thức về toán học và kinh tế-xã hội, cũng như hầm bà lằng các thứ khác. Nhưng mà chủ yếu là những thứ mình thấy vui và có ích =))))
